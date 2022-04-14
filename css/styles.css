@@ -11550,7 +11550,7 @@ header.masthead .masthead-heading {
 .timeline > li {
   position: relative;
   min-height: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 .timeline > li:after, .timeline > li:before {
   display: table;
@@ -11587,8 +11587,9 @@ header.masthead .masthead-heading {
   margin-left: 34px;
   text-align: center;
   color: white;
+  border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #666;
+  background-color: #fff;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
@@ -11633,7 +11634,7 @@ header.masthead .masthead-heading {
   }
   .timeline > li {
     min-height: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
   }
   .timeline > li .timeline-panel {
     float: left;
@@ -11643,9 +11644,9 @@ header.masthead .masthead-heading {
   }
   .timeline > li .timeline-image {
     left: 50%;
-    width: 10px;
-    height: 10px;
-    margin-left: -5px;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 13px;
@@ -11666,9 +11667,9 @@ header.masthead .masthead-heading {
     padding: 0 20px 20px;
   }
   .timeline > li .timeline-image {
-    width: 10px;
-    height: 10px;
-    margin-left: -5px;
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 18px;
@@ -11681,23 +11682,24 @@ header.masthead .masthead-heading {
 }
 @media (min-width: 1200px) {
   .timeline > li {
-    min-height: 30px;
+    min-height: 170px;
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px 100px;
   }
   .timeline > li .timeline-image {
-    width: 10px;
-    height: 10px;
-    margin-left: -5px;
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-    margin-top: 10px;
+    margin-top: 40px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
 }
+
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
